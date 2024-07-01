@@ -15,15 +15,14 @@ export default function Navbar() {
     }
 
     if (!mounted) {
-        return null;
+        return null; 
     }
 
     return (
-        <div className="bg-white border-gray-200">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+        <div className="px-4 bg-white border-gray-200 sticky top-0 right-0 left-0 z-50 shadow">
+            <div className="max-w-screen-lg min-[1537px]:max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 md:py-6">
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">Nest travel</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-[#494B5C]">Nest travel</span>
                 </a>
                 <button
                     data-collapse-toggle="navbar-default"
@@ -52,19 +51,19 @@ export default function Navbar() {
                 <div className={`${isOpen ? "flex" : "hidden"} flex-col w-full md:block md:w-auto`} id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
                         <li>
-                            <a href="#" className="block py-2 px-3 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</a>
+                            <a href="/" className="block py-2 px-3 rounded md:bg-transparent text-[#E71230] md:p-0" aria-current="page">Нүүр</a>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
+                            <a href="/aboutUs" className="block py-2 px-3 text-[#494B5C] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#E71230] md:p-0">Бидний тухай</a>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Services</a>
+                            <a href="/tours" className="block py-2 px-3 text-[#494B5C] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#E71230] md:p-0">Аяллууд</a>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Pricing</a>
+                            <a href="/contact" className="block py-2 px-3 text-[#494B5C] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#E71230] md:p-0">Холбоо барих</a>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
+                            <a href="#" className="block py-2 px-3 text-[#494B5C] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#E71230] md:p-0">Contact</a>
                         </li>
                     </ul>
                 </div>
