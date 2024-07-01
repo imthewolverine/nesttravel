@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Card() {
 
     return (
-        <Link href="" className="text-white mx-auto gap-4">
+        <Link href="/tours/tour" className="text-white mx-auto gap-4">
             <div className='bg-[#C4C4C4] h-[250px]'> </div>
             <div className='-mt-10 bg-[#F7F7F7] p-[16px] w-11/12'>
                 <div className='flex items-center gap-[8px]'>

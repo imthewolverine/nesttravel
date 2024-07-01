@@ -32,7 +32,7 @@ export default function Tours() {
                     <div className=''>
                         <p className='font-bold text-[#272343] text-[28px] font-PT-Serif mb-[15px]'>How to Get Started With UI/UX</p>
                         <p className='font-bold text-[#272343] text-[20px] font-PT-Serif mb-[15px]'>20 web designer skills to have</p>
-                        <p className='text-[16px] font-Poppins text-[#494B5C] mb-[15px]'>Here's a medley of 20 skills to help you become a design expert, no matter where you're at in your career.</p>
+                        <p className='text-[16px] font-Poppins text-[#494B5C] mb-[15px]'>Here&apos;s a medley of 20 skills to help you become a design expert, no matter where you&apos;re at in your career.</p>
                         <p className='text-[16px] font-Poppins text-[#494B5C] mb-[15px] border-l-[5px] border-[#E71230] pl-[20px]'>Being a web designer involves harmoniously combining visuals and content. But non-technical skills, like collaboration and communication, are also important.</p>
                         <p className='font-bold text-[#272343] text-[20px] font-PT-Serif mb-[15px]'>1. Know the principles of design</p>
                         <div className='w-full bg-[#C4C4C4] h-[420px] mb-[15px]'></div>
